@@ -1,10 +1,14 @@
 import React from 'react'
 
-import { ExampleComponent } from 'patikabutton'
+import { Button } from 'patikabutton'
 import 'patikabutton/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <div className="app">
+      <Button text="Button" />
+    </div>
+  );
 }
 
 export default App
