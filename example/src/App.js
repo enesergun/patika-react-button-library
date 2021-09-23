@@ -6,7 +6,12 @@ import 'patikabutton/dist/index.css'
 const App = () => {
   return (
     <div className="app">
-      <Button text="Button" />
+      <Button text="Primary Button" type="primary" />
+      <Button text="Default Button" />
+      <Button text="Dashed Button" type="dashed" />
+      <Button text="Text Button" type="text" />
+      <Button text="Link Button" type="link" />
+      
     </div>
   );
 }

@@ -15,5 +15,7 @@ code {
 
 .app {
   margin: 10px;
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
